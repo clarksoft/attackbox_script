@@ -8,6 +8,8 @@ bash attack.sh \<ip\> \<domainname\>
 Example
 bash attack.sh 10.10.11.12 reloaded.thm
 
+<hr>
+<h5>
 Features:<br>
 Instala xclip cewl jq html2text crunch<br>
 Crea una revershell.php basada en Pentestmonkey y agrega la ip que tengamos actualemente con puerto 4545 (mishell.php)<br>
@@ -18,4 +20,4 @@ Agrega la ip y nombre que necesitemos al /etc/hosts<br>
 Carga firefox con la IP a revisar para mirar su página web de omisión<br>
 Ejecuta un escaneo rápido de todos los puertos de la victima (nmap -p- --min-rate=5000 -n -Pn -oN allports ) y lo guarda en un archivo allports<br>
 Ejecuta un escaneo avanzado a los puertos que haya encontrado abiertos (nmap -A -oN targeted ) y lo almacena en un archivo targeted<br>
-
+</h5>
