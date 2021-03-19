@@ -21,3 +21,7 @@ Carga firefox con la IP a revisar para mirar su página web de omisión<br>
 Ejecuta un escaneo rápido de todos los puertos de la victima (nmap -p- --min-rate=5000 -n -Pn -oN allports ) y lo guarda en un archivo allports<br>
 Ejecuta un escaneo avanzado a los puertos que haya encontrado abiertos (nmap -A -oN targeted ) y lo almacena en un archivo targeted<br>
 </h5>
+
+
+Update:
+Se agrega un grep para retirar del directory23medium las filas con más de 30 caracteres dado que para pentensting demo no son necesarios y agiliza las respuestas.
