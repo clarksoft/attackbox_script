@@ -3,9 +3,9 @@ script que automatiza la carga de herramientas útiles y el reconocimiento inici
 
 
 Usage:
-bash attack.sh \<ip\> \<domainname\>
+bash attack.sh \<ip\> \<hostname\>
   
-Example
+Example<br>
 bash attack.sh 10.10.11.12 reloaded.thm
 
 <hr>
